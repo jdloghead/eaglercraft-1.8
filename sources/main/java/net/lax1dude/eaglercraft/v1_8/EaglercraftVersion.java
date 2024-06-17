@@ -9,7 +9,7 @@ public class EaglercraftVersion {
 	
 	/// Customize these to fit your fork:
 	public static final String projectForkName = "Jayden's EaglercraftX Fork";
-	public static final String projectForkVersion = "1.0.0 (based on u34)";
+	public static final String projectForkVersion = "1.1.0 (based on u35)";
 	public static final String projectForkVendor = "jdloghead";
 	
 	public static final String projectForkURL = "https://github.com/jdloghead/eaglercraft-1.8";
