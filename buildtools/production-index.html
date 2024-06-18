@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Play minecraft 1.8 in your browser" />
 		<meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8" />
-		<title>EaglercraftX 1.8</title>
+		<title>Jayden's EaglercraftX 1.8</title>
 		<meta property="og:locale" content="en-US" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="EaglercraftX 1.8" />
@@ -30,12 +30,16 @@
 						localesURI: "lang/",
 						worldsDB: "worlds",
 						servers: [
-							/* example: { addr: "ws://localhost:8081/", name: "Local test server" } */
+							{ addr: "wss://mc.arch.lol/", name: "ArchMC" },
+							{ addr: "wss://reading-gs.q13x.com", name: "q13x's Anarchy Server" },
+							{ addr: "wss://reading-ps.q13x.com", name: "q13x's Vanilla Proxy Server" }
 						],
 						relays: [
 							{ addr: "wss://relay.deev.is/", comment: "lax1dude relay #1", primary: relayId == 0 },
 							{ addr: "wss://relay.lax1dude.net/", comment: "lax1dude relay #2", primary: relayId == 1 },
-							{ addr: "wss://relay.shhnowisnottheti.me/", comment: "ayunami relay #1", primary: relayId == 2 }
+							{ addr: "wss://relay.shhnowisnottheti.me/", comment: "ayunami relay #1", primary: relayId == 2 },
+							{ addr: "wss://reading-relay.q13x.com/", comment: "q13x relay", primary: relayId == 3 },
+							{ addr: "ws://86.17.161.45:6699/", comment: "jayden relay", primary: relayId == 4 }
 						]
 					};
 					
